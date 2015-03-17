@@ -17,6 +17,7 @@ One of your burgers should ask for peanut butter on it as well.
         <topping type="egg"></topping>
         <sauce type="mustard"></sauce>
         <sauce type="fksauce"></sauce>
+        <name type="galaxy"></name>
     </burger>
     <burger>
         <patty type="bison"></patty>
@@ -24,5 +25,6 @@ One of your burgers should ask for peanut butter on it as well.
         <topping type="lettuce"></topping>
         <topping type="bacon"></topping>
         <sauce type="peanut_butter"></sauce>
+        <name type="country"></name>
     </burger>
 </order>

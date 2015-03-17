@@ -60,5 +60,8 @@ and one on bottom, and provide for unique codes for these. -->
 <!-- Instructions can be literally anything -->
 <!ELEMENT instructions (#PCDATA)>
 
-<!-- A name can be anything for now - we'll validate it later -->
+<!-- A name (your dream burger!) can be anything for now - we'll validate it later -->
 <!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+    type (galaxy|country) #REQUIRED
+>
